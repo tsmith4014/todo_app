@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); /* Wacky font */
+
+body {
+  background-color: #FFEB3B;
+  font-family: 'Fredoka One', sans-serif;
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: rgba(243, 8, 8, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+input {
+  width: 60%;
+  background-color: #200355;
+}
+
+button {
+  background-color: #FFC107;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e106f5;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+li:hover {
+  transform: translateY(-10px);
+  opacity: 0.8;
+}
